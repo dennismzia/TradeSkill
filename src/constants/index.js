@@ -129,3 +129,10 @@ export const FooterLinks = [
     {href:"#",label:"Terms & conditions"},
     {href:"#",label:"Privacy Policy"}
 ]
+
+export const Address = [
+    {
+        title:"Corporate Office",
+        address:"2 Wall St FL6, New York, NY 10005 "
+    }
+]
