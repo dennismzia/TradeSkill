@@ -30,3 +30,22 @@ export const Case = [
         subtext:"We will advance you the money today with no obligation to make any payments unless you win or settle your lawsuit"
     }
 ]
+
+
+export const HardFacts = [
+    {
+        label:"75%",
+        subtext:"share of legal professionals who believe litigation finance is growing and important part of the business of law"
+    },
+    {
+        label:"95%",
+        subtext:"of personal injury cases settle for more than twice the initial settlement amount when a plaintiff does not settle immediately (from LitiPay customer data)."
+    },
+    {
+        label:"$60,000",
+        subtext:"While hiring an attorney might extend the length of a case, those plaintiffs who are represented receive settlements worth an average of $60,000 more than those who settle without one."
+    }
+
+]
+
+
