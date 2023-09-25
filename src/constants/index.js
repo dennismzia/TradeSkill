@@ -1,11 +1,11 @@
 export const NavLinks = [
-    {href:"Attorney", label: "#Attorney"},
-    {href:"Partners", label: "#Partners"},
-    {href:"Medical", label: "#Medical"}, 
-    {href:"Access", label:"#Access"}, 
-    {href:"Pass", label: "#Pass"},
-    {href:"FAQs", label: "#FAQs"},
-    {href:"About", label: "#About"}
+    {label:"Attorney", href: "#Attorney"},
+    {label:"Partners", href: "#Partners"},
+    {label:"Medical", href: "#Medical"}, 
+    {label:"Access", href:"#Access"}, 
+    {label:"Pass", href: "#Pass"},
+    {label:"FAQs", href: "#FAQs"},
+    {label:"About", href: "#About"}
 ]
 
 export const Case = [
@@ -120,4 +120,12 @@ export const  Benefits = [
         subtext:"We will advance you the money today with no obligation to make any payments unless you win or settle your lawsuit."
     }
 
+]
+
+export const FooterLinks = [
+    {href:"#",label:"Attorney Partners"},
+    {href:"#",label:"FAQs"},
+    {href:"#",label:"About us"},
+    {href:"#",label:"Terms & conditions"},
+    {href:"#",label:"Privacy Policy"}
 ]
