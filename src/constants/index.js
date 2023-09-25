@@ -49,3 +49,63 @@ export const HardFacts = [
 ]
 
 
+export const Fund = [
+    {
+        imgURL:"",
+        title:"Motor Vehicle accident"
+    },
+    {
+        imgURL:"",
+        title:"Medical malpractice"
+    },
+    {
+        imgURL:"",
+        title:"Work accident"
+    },
+    {
+        imgURL:"",
+        title:"Wrongful Imprisonment"
+    },
+    {
+        imgURL:"",
+        title:"slip and fall"
+    },
+    {
+        imgURL:"",
+        title:"Product liability"
+    },
+    {
+        imgURL:"",
+        title:"premises liablility"
+    },
+    {
+        imgURL:"",
+        title:"Dog bite"
+    },
+    {
+        imgURL:"",
+        title:"Wrongful death"
+    },
+    {
+        imgURL:"",
+        title:"labor laws"
+    },
+    {
+        imgURL:"",
+        title:"Construction Accident"
+    },
+    {
+        imgURL:"",
+        title:"Railway worker accident"
+    }
+]
+
+
+
+export const  Benefits = [
+
+    {
+        
+    }
+
+]
