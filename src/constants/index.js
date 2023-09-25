@@ -6,7 +6,7 @@ export const NavLinks = [
     {label:"Pass", href: "#Pass"},
     {label:"FAQs", href: "#FAQs"},
     {label:"About", href: "#About"}
-]
+];
 
 export const Case = [
     {
@@ -29,7 +29,7 @@ export const Case = [
         label:"Get cash and fight your case.",
         subtext:"We will advance you the money today with no obligation to make any payments unless you win or settle your lawsuit"
     }
-]
+];
 
 
 export const HardFacts = [
@@ -46,7 +46,7 @@ export const HardFacts = [
         subtext:"While hiring an attorney might extend the length of a case, those plaintiffs who are represented receive settlements worth an average of $60,000 more than those who settle without one."
     }
 
-]
+];
 
 
 export const Fund = [
@@ -98,7 +98,7 @@ export const Fund = [
         imgURL:"",
         title:"Railway worker accident"
     }
-]
+];
 
 
 
@@ -120,7 +120,7 @@ export const  Benefits = [
         subtext:"We will advance you the money today with no obligation to make any payments unless you win or settle your lawsuit."
     }
 
-]
+];
 
 export const FooterLinks = [
     {href:"#",label:"Attorney Partners"},
@@ -128,14 +128,14 @@ export const FooterLinks = [
     {href:"#",label:"About us"},
     {href:"#",label:"Terms & conditions"},
     {href:"#",label:"Privacy Policy"}
-]
+];
 
 export const Address = [
     {
         title:"Corporate Office",
         address:"2 Wall St FL6, New York, NY 10005 "
     }
-]
+];
 
 export const socialMedia = [
     { src: facebook, alt: "facebook logo" },
