@@ -4,35 +4,35 @@ const App = () => (
   <main>
 
   <section>
-    Hero
+    < Hero />
   </section>
 
   <section>
-    Case
+    < Case />
   </section>
 
   <section>
-    HardFacts
+    < Hard />
   </section>
 
   <section>
-    Fund
+    < Fund />
   </section>
 
   <section>
-    CustomerReviews
+    < CustomerReview />
   </section>
 
   <section>
-    Benefits
+    < Benefits />
   </section>
 
   <section>
-    Consultation
+    < Consultation />
   </section>
 
   <section>
-    Footer
+    < Footer/>
   </section>
 
   </main>
