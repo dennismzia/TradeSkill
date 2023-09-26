@@ -1,4 +1,12 @@
 import React from 'react'
+import {    Hero,
+  Case,
+  HardFacts,
+  Fund,
+  CustomerReview,
+  Benefits,
+  Consultation,
+  Footer} from './constants';
 
 const App = () => (
   <main>
@@ -32,7 +40,7 @@ const App = () => (
   </section>
 
   <section>
-    < Footer/>
+    < Footer />
   </section>
 
   </main>
