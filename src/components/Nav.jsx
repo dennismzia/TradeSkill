@@ -1,11 +1,9 @@
 import React from 'react'
 
-const Nav = () => {
-  return (
-    <div>
-        Navbar goes here 
-    </div>
-  )
-}
+const Nav = () => (
+    <header className=''>
+
+    </header>
+)
 
 export default Nav
