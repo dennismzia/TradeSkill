@@ -1,4 +1,5 @@
 import React from 'react'
+import Nav from "./components";
 import {    
   Hero,
   Case,
@@ -12,37 +13,37 @@ import {
 
 const App = () => (
   <main>
-
+    <Nav />
   <section>
-    < Hero />
+    {/* < Hero /> */}
   </section>
 
   <section>
-    < Case />
+    {/* < Case /> */}
   </section>
 
   <section>
-    < HardFacts />
+    {/* < HardFacts /> */}
   </section>
 
   <section>
-    < Fund />
+    {/* < Fund /> */}
   </section>
 
   <section>
-    < CustomerReview />
+    {/* < CustomerReview /> */}
   </section>
 
   <section>
-    < Benefits />
+    {/* < Benefits /> */}
   </section>
 
   <section>
-    < Consultation />
+    {/* < Consultation /> */}
   </section>
 
   <section>
-    < Footer />
+    {/* < Footer /> */}
   </section>
 
   </main>
