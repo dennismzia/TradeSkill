@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Nav = () => (
-    <header className=''>
+    <header className='padding-x py-8 '>
 
     </header>
 )
