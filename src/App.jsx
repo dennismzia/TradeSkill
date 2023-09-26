@@ -12,7 +12,7 @@ const App = () => (
   </section>
 
   <section>
-    < Hard />
+    < HardFacts />
   </section>
 
   <section>
