@@ -1,53 +1,28 @@
-import Nav from "./components";
-// import {    
-//   Hero,
-//   Case,
-//   HardFacts,
-//   Fund,
-//   CustomerReview,
-//   Benefits,
-//   Consultation,
-//   Footer
-// } from './constants';
+import { Nav } from './components';
+import {    
+  Hero,
+  Case,
+  HardFacts,
+  Fund,
+  CustomerReview,
+  Benefits,
+  Consultation,
+  Footer
+} from './sections';
 
 const App = () => (
-  <main>
-    {/* <Nav /> */}
-  <section>
+    <main className="relative">
 
-    Hero section
-  
-  </section>
+        <Nav />
 
-  <section>
-    {/* < Case /> */}
-  </section>
+        <section>
+            < Hero/>
+        </section>
 
-  <section>
-    {/* < HardFacts /> */}
-  </section>
-
-  <section>
-    {/* < Fund /> */}
-  </section>
-
-  <section>
-    {/* < CustomerReview /> */}
-  </section>
-
-  <section>
-    {/* < Benefits /> */}
-  </section>
-
-  <section>
-    {/* < Consultation /> */}
-  </section>
-
-  <section>
-    {/* < Footer /> */}
-  </section>
-
-  </main>
-)
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+    </main>
+  )
 
 export default App
