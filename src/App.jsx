@@ -1,21 +1,22 @@
-import React from 'react'
 import Nav from "./components";
-import {    
-  Hero,
-  Case,
-  HardFacts,
-  Fund,
-  CustomerReview,
-  Benefits,
-  Consultation,
-  Footer
-} from './constants';
+// import {    
+//   Hero,
+//   Case,
+//   HardFacts,
+//   Fund,
+//   CustomerReview,
+//   Benefits,
+//   Consultation,
+//   Footer
+// } from './constants';
 
 const App = () => (
   <main>
-    <Nav />
+    {/* <Nav /> */}
   <section>
-    {/* < Hero /> */}
+
+    Hero section
+  
   </section>
 
   <section>
