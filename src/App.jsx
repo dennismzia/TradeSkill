@@ -1,12 +1,14 @@
 import React from 'react'
-import {    Hero,
+import {    
+  Hero,
   Case,
   HardFacts,
   Fund,
   CustomerReview,
   Benefits,
   Consultation,
-  Footer} from './constants';
+  Footer
+} from './constants';
 
 const App = () => (
   <main>
