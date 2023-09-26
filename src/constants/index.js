@@ -1,3 +1,20 @@
+import {
+    ConstructionAccident,
+    DogBIte,
+    Laborlaws,
+    medical,
+    motorvehicleaccident,
+    premisesLiablity,
+    productLiability,
+    Railway,
+    slipandfall,
+    workAccident,
+    wrongfulDeath,
+    wrongfulImprisonment
+} from "../assets/images";
+
+
+
 export const NavLinks = [
     {label:"Attorney", href: "#Attorney"},
     {label:"Partners", href: "#Partners"},
@@ -51,51 +68,51 @@ export const HardFacts = [
 
 export const Fund = [
     {
-        imgURL:"",
+        imgURL:motorvehicleaccident,
         title:"Motor Vehicle accident"
     },
     {
-        imgURL:"",
+        imgURL:medical,
         title:"Medical malpractice"
     },
     {
-        imgURL:"",
+        imgURL:workAccident,
         title:"Work accident"
     },
     {
-        imgURL:"",
+        imgURL:wrongfulImprisonment,
         title:"Wrongful Imprisonment"
     },
     {
-        imgURL:"",
+        imgURL:slipandfall,
         title:"slip and fall"
     },
     {
-        imgURL:"",
+        imgURL:productLiability,
         title:"Product liability"
     },
     {
-        imgURL:"",
+        imgURL:premisesLiablity,
         title:"premises liablility"
     },
     {
-        imgURL:"",
+        imgURL:DogBIte,
         title:"Dog bite"
     },
     {
-        imgURL:"",
+        imgURL:wrongfulDeath,
         title:"Wrongful death"
     },
     {
-        imgURL:"",
+        imgURL:Laborlaws,
         title:"labor laws"
     },
     {
-        imgURL:"",
+        imgURL:ConstructionAccident,
         title:"Construction Accident"
     },
     {
-        imgURL:"",
+        imgURL:Railway,
         title:"Railway worker accident"
     }
 ];
