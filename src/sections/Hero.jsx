@@ -11,6 +11,7 @@ const Hero = () => {
         We help personal injury victims with pre-settlement financial support so they can fight their legal battle and get what they are owed.
         </p>
     {/* here goes the input element section */}
+        <RequestForm />
 
       </div>
 
