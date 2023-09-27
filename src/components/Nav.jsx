@@ -4,12 +4,10 @@ import {NavLinks} from "../constants";
 const Nav = () => (
     <header className='padding-x py-8'>
         <nav className='flex justify-between items-center max-container'>
-        <a href=""></a>
-            <div>
-                wtf
-            </div>
+            {/* logo goes here */}
+
         <ul className='flex-1 flex justify-center items-center'>
-            {/* {
+            {
                 NavLinks.map((item) => (
                     <li key={item.label}>
                         <a href={item.href} className="font-poppins leading-normal text-sm text-black hover:text-purple">
@@ -18,7 +16,7 @@ const Nav = () => (
 
                     </li>
                 ))
-            } */}
+            }
 
         </ul>
         </nav>
