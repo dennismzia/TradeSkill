@@ -44,4 +44,8 @@
   .padding-b {
     @apply sm:pb-24 pb-12;
   }
+
+  .hover-text {
+    @pply hover:text-[#943FF8]
+  }
 }

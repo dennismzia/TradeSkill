@@ -6,7 +6,11 @@ export default {
     './components/**/*.{html,js}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        purple: "#943FF8"
+      }
+    },
   },
   plugins: [],
 }
