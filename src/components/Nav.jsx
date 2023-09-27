@@ -1,5 +1,7 @@
 import React from 'react'
 import { NavLinks } from '../constants';
+import Button from "./Button";
+
 
 const Nav = () => (
     <header className="padding-x py-8">
@@ -13,7 +15,9 @@ const Nav = () => (
                             </li>
                         ))
                     }
-
+                
+                <Button label="Get Funds"/>
+            
 
             </ul>
         </nav>
