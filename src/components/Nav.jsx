@@ -10,7 +10,7 @@ const Nav = () => (
             <ul className="flex-1 flex justify-center items-center gap-16">
                     {
                         NavLinks.map((item)=>(
-                            <li key={item.label} className="font-poppins leading-normal text-sm text-black hover:text-purple-900 cursor-pointer">
+                            <li key={item.label} className="font-poppins leading-normal text-base text-black hover:text-purple-900 cursor-pointer">
                                 {item.label}
                             </li>
                         ))
