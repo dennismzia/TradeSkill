@@ -10,7 +10,7 @@ const Nav = () => (
             {
                 NavLinks.map((item) => (
                     <li key={item.label}>
-                        <a href={item.href} className="font-poppins leading-normal text-sm text-black hover:text-purple">
+                        <a href={item.href} className="font-poppins leading-normal text-sm text-black hover:text-purple-800">
                             {item.label}
                         </a>
 
