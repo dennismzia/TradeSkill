@@ -154,6 +154,53 @@ export const Address = [
     }
 ];
 
+
+export const Formelements = [
+    {
+        label: "First name",
+        inputType:"text"
+    },    
+    {
+        label: "last name",
+        inputType:"text"
+    },    
+    {
+        label: "email",
+        inputType:"email"
+    },    
+    {
+        label: "phone number",
+        inputType:"number"
+    },    
+    {
+        label: "Funds Requested",
+        inputType:"number"
+    },    
+    {
+        label: "Law Firm's Name",
+        inputType:"text"
+    },    
+    {
+        label: "Law Firm's website",
+        inputType:"url"
+    },    
+    {
+        label: "First name",
+        inputType:"text"
+    },    {
+        label: "First name",
+        inputType:"text"
+    },    {
+        label: "First name",
+        inputType:"text"
+    },    {
+        label: "First name",
+        inputType:"text"
+    },
+
+]
+
+
 // export const socialMedia = [
 //     { src: facebook, alt: "facebook logo" },
 //     { src: twitter, alt: "twitter logo" },
