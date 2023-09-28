@@ -16,7 +16,7 @@ const Case = () => {
         {
           CaseData.map(
             (item)=>(
-              <CaseCard Step={item.Step} label={item.label} subtext={item.subtext}/>
+              <CaseCard imgurl={item.imgURL} Step={item.Step} label={item.label} subtext={item.subtext}/>
             )
           )
         }

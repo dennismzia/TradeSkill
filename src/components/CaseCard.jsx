@@ -1,8 +1,8 @@
 
-const CaseCard = ({Step,label,subtext}) => {
+const CaseCard = ({imgurl,Step,label,subtext}) => {
   return (
     <div className="padding-x justify-between  w-full rounded-sm mb-3 ">
-        <img src="" alt="" />
+        <img src={imgurl} alt="icon" width={86} height={86} className="mb-10"/>
         <p className="mt-2 mb-3">
         {Step}
         </p>
