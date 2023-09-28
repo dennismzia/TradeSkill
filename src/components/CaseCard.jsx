@@ -1,7 +1,7 @@
 
 const CaseCard = ({Step,label,subtext}) => {
   return (
-    <div className="padding-x justify-between  border ">
+    <div className="padding-x justify-between  w-full rounded-sm mb-3 ">
         <p className="mt-2 mb-3">
         {Step}
         </p>
