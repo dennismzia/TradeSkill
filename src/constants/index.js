@@ -185,18 +185,17 @@ export const Formelements = [
         inputType:"url"
     },    
     {
-        label: "First name",
+        label: "Attorney's name",
         inputType:"text"
-    },    {
-        label: "First name",
+    },    
+    {
+        label: "Attorney’s Phone Number*",
         inputType:"text"
-    },    {
-        label: "First name",
+    },    
+    {
+        label: "Attorney's Email*",
         inputType:"text"
-    },    {
-        label: "First name",
-        inputType:"text"
-    },
+    }
 
 ]
 
