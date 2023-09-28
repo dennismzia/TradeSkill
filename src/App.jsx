@@ -20,7 +20,7 @@ const App = () => (
         </section>
 
         <section>
-          {/* < Case /> */}
+          < Case />
         </section>
 
         <section>
