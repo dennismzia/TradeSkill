@@ -8,7 +8,7 @@ const Case = () => {
       We're right by your side,
       </p> 
       
-      <p className=" font-poppins mt-2 font-extrabold text-stone-950 text-4xl flex-auto mb-2" >
+      <p className=" font-poppins mt-2 font-extrabold text-stone-950 text-4xl flex-auto mb-20" >
       every step of your case.
       </p>
 
