@@ -24,7 +24,7 @@ const App = () => (
         </section>
 
         <section>
-          {/* < HardFacts /> */}
+          < HardFacts />
         </section>
 
         <section>

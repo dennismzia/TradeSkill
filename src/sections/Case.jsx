@@ -1,4 +1,5 @@
 import {CaseData} from "../constants";
+import CaseCard from "../components/CaseCard";
 
 const Case = () => {
   return (
@@ -11,10 +12,16 @@ const Case = () => {
       every step of your case.
       </p>
 
-      <div>
-
+      <div className="flex  justify-between justify-evenly">
+        {
+          CaseData.map(
+            (item)=>(
+              <CaseCard Step={item.Step} label={item.label} subtext={item.subtext}/>
+            )
+          )
+        }
       </div>
-      
+
     </div>
   )
 }
