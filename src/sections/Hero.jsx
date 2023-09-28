@@ -10,12 +10,11 @@ const Hero = () => {
         <p className="text-sm flex text-white leading-8 mt-6 mb-10 tracking-wider ">
         We help personal injury victims with pre-settlement financial support so they can fight their legal battle and get what they are owed.
         </p>
-    {/* here goes the input element section */}
-        <RequestForm />
 
       </div>
+      <RequestForm />
 
-      <div >
+      <div>
 
       </div>
     </section>
