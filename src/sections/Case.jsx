@@ -12,7 +12,7 @@ const Case = () => {
       every step of your case.
       </p>
 
-      <div className="flex  justify-between justify-evenly">
+      <div className="flex justify-evenly">
         {
           CaseData.map(
             (item)=>(
