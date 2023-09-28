@@ -25,7 +25,7 @@ export const NavLinks = [
     {label:"About", href: "#About"}
 ];
 
-export const Case = [
+export const CaseData = [
     {
         imgURL:"",
         Step:"Step 1",
