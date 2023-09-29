@@ -28,7 +28,7 @@ const App = () => (
         </section>
 
         <section>
-          {/* < Fund /> */}
+          <Fund />
         </section>
 
         <section>
