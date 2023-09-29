@@ -12,6 +12,7 @@ import slipandfall from "./slipandfall.svg"
 import workAccident from "./workAccident.svg"
 import wrongfulDeath from "./wrongfulDeath.svg"
 import wrongfulImprisonment from "./wrongfulImprisonment.svg"
+import HardFactsimage from "./img-1.jpg";
 
 export {
     ConstructionAccident,
@@ -25,5 +26,6 @@ export {
     slipandfall,
     workAccident,
     wrongfulDeath,
-    wrongfulImprisonment
+    wrongfulImprisonment,
+    HardFactsimage
 }
