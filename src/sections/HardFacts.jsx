@@ -1,6 +1,7 @@
 import {HardFactsimage} from "../assets/images";
 import {HFCard} from "../components";
 
+// TODO: make this card into a counter
 const HardFacts = () => {
   return (
     <div className="flex">
