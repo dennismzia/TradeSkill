@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins : ['Poppins', 'sans-serif'],
+      },
+      backgroundImage: {
+        "home-banner" : "url('src/assets/images/banner-home-right.svg')",
+      }
+    },
   },
   plugins: [],
 }
