@@ -1,5 +1,7 @@
 import Input from "./Input";
 import { Formelements } from "../constants";
+import {Button} from "../components";
+
 
 const RequestForm = () => {
   return (
@@ -13,7 +15,10 @@ const RequestForm = () => {
             <Input label={item.label} inputType={item.inputType}/>
           ))
         }
-
+        <div className="py-6 mt-4 mb-8">
+          <Button label="Submit Form"/>
+        </div>
+        
       </form>
 
 
