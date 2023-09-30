@@ -12,7 +12,7 @@ const Fund = () => {
       We partner with you for any of the following cases:
       </p>
 
-      <div className="mt-16 flex">
+      <div className="mt-16">
         {
           FundData.map((item)=>(
             <FundDataCard imgurl={item.imgURL} title={item.title}/>
