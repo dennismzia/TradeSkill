@@ -8,8 +8,13 @@ const Fund = () => {
       </h2>
       <p className="text-[#757575] font-normal text-lg">
       We partner with you for any of the following cases:
-
       </p>
+
+    <div>
+      
+    </div>
+
+
     </div>
   )
 }
