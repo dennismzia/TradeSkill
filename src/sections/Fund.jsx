@@ -12,6 +12,11 @@ const Fund = () => {
       </p>
 
       <div className="mt-16 grid grid-cols-1">
+        {
+          FundData.map((item)=>(
+            <FundDataCard imgurl={item.imgurl} title={item.title}/>
+          ))
+        }
 
       </div>
 
