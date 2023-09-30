@@ -3,8 +3,8 @@ import {FundDataCard} from "../components";
 
 const Fund = () => {
   return (
-    <section id='case' className="max-container">
-    <div className="padding-x padding-y">
+    <section id='case' className="max-container relative block max-w-full">
+    <div className="padding-x padding-y max-w-full ">
       <h2 className="font-semibold text-5xl text-black font-poppins mb-4">
       Cases we fund
       </h2>
@@ -12,7 +12,7 @@ const Fund = () => {
       We partner with you for any of the following cases:
       </p>
 
-      <div className="flex-col">
+      <div className="max-w-6xl">
 
         <div className="mt-16 grid grid-flow-col gap-5">
           {
