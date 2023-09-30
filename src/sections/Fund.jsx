@@ -1,4 +1,4 @@
-import React from 'react'
+import {FundData } from "../constants";
 
 const Fund = () => {
   return (
@@ -11,9 +11,9 @@ const Fund = () => {
       We partner with you for any of the following cases:
       </p>
 
-    <div>
+      <div className="mt-16 grid grid-cols-1">
 
-    </div>
+      </div>
 
     </div>
 

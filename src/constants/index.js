@@ -68,7 +68,7 @@ export const HardFacts = [
 ];
 
 
-export const Fund = [
+export const FundData = [
     {
         imgURL:motorvehicleaccident,
         title:"Motor Vehicle accident"
