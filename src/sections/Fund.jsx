@@ -2,6 +2,7 @@ import React from 'react'
 
 const Fund = () => {
   return (
+    <section id='case' className="max-container">
     <div className="padding-x padding-y">
       <h2 className="font-semibold text-5xl text-black font-poppins mb-4">
       Cases we fund
@@ -11,11 +12,12 @@ const Fund = () => {
       </p>
 
     <div>
-      
-    </div>
-
 
     </div>
+
+    </div>
+
+    </section>
   )
 }
 
