@@ -1,5 +1,6 @@
 import {FundData } from "../constants";
 import {FundDataCard} from "../components";
+
 const Fund = () => {
   return (
     <section id='case' className="max-container">
