@@ -19,15 +19,15 @@ const App = () => (
             < Hero/>
         </section>
 
-        <section>
+        <section className="padding bg bg-white">
           < Case />
         </section>
 
-        <section>
+        <section className="padding">
           < HardFacts />
         </section>
 
-        <section>
+        <section className="padding">
           <Fund />
         </section>
 
