@@ -14,7 +14,7 @@ const Fund = () => {
 
       <div className="max-w-6xl">
 
-        <div className="mt-16 grid grid-flow-col gap-5">
+        <div className="grid gap-4 ">
           {
             FundData.map((item)=>(
               <FundDataCard imgurl={item.imgURL} title={item.title}/>
