@@ -10,7 +10,7 @@ const Fund = () => {
       </h2>
       <p className="text-[#757575] font-normal text-lg">
       We partner with you for any of the following cases:
-      </p>np
+      </p>
 
       <div className="max-w-6xl">
 
