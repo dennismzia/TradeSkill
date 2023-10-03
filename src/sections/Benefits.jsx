@@ -3,7 +3,7 @@ import {BenefitsData} from "../constants";
 
 const Benefits = () => {
   return (
-    <section id='benefits' className="bg-white">
+    <section id='benefits' className="bg-white py-12">
       <div className="w-1/2 padding">
         <h2 className="padding-x font-extrabold text-3xl text-black font-poppins ">
           Cash with benefits
