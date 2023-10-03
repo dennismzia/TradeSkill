@@ -4,7 +4,7 @@ import { Address } from "../constants";
 const Footer = () => {
   return (
     <section id="footer" className=" w-full bg-[#1f2363] flex justify-between">
-      <div className="padding-x">
+      <div className="padding-x padding-y">
         <h1 className="text-white font-extrabold py-4  font-poppins">
         Corporate Office
         </h1>
