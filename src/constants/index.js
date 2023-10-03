@@ -121,7 +121,7 @@ export const FundData = [
 
 
 
-export const  Benefits = [
+export const  BenefitsData = [
 
     {
         imgURL:icon16,

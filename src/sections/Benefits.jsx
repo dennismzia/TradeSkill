@@ -1,5 +1,5 @@
 import CWBCard from "../components/CWBCard";
-import {Benefits} from "../constants";
+import {BenefitsData} from "../constants";
 
 const Benefits = () => {
   return (
@@ -15,7 +15,7 @@ const Benefits = () => {
 
       <div>
         {
-          Benefits.map((item)=>(
+          BenefitsData.map((item)=>(
             <CWBCard imgurl={item.imgURL} label={item.label} subtext={item.subtext} />
           ))
         }
