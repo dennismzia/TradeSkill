@@ -3,7 +3,7 @@ import {BenefitsData} from "../constants";
 
 const Benefits = () => {
   return (
-    <section id='benefits' className="">
+    <section id='benefits' className="bg-white">
       <div className="w-1/2 padding">
         <h2 className="padding-x font-extrabold text-3xl text-black font-poppins ">
           Cash with benefits
@@ -13,7 +13,7 @@ const Benefits = () => {
         </p>
       </div>
 
-      <div>
+      <div className="padding-x flex gap-3">
         {
           BenefitsData.map((item)=>(
             <CWBCard imgurl={item.imgURL} label={item.label} subtext={item.subtext} />
