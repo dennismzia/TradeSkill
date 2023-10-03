@@ -32,11 +32,11 @@ const App = () => (
         </section>
 
         <section>
-          <CustomerReview />
+          {/* <CustomerReview /> */}
         </section>
 
         <section>
-          {/* < Benefits /> */}
+          < Benefits />
         </section>
 
         <section>
