@@ -141,20 +141,6 @@ export const  BenefitsData = [
 
 ];
 
-export const FooterLinks = [
-    {href:"#",label:"Attorney Partners"},
-    {href:"#",label:"FAQs"},
-    {href:"#",label:"About us"},
-    {href:"#",label:"Terms & conditions"},
-    {href:"#",label:"Privacy Policy"}
-];
-
-export const Address = [
-    {
-        title:"Corporate Office",
-        address:"2 Wall St FL6, New York, NY 10005 "
-    }
-];
 
 
 export const Formelements = [
@@ -200,6 +186,21 @@ export const Formelements = [
     }
 
 ]
+
+export const FooterLinks = [
+    {href:"#",label:"Attorney Partners"},
+    {href:"#",label:"FAQs"},
+    {href:"#",label:"About us"},
+    {href:"#",label:"Terms & conditions"},
+    {href:"#",label:"Privacy Policy"}
+];
+
+export const Address = [
+    {
+        title:"Corporate Office",
+        address:"2 Wall St FL6, New York, NY 10005 "
+    }
+];
 
 
 // export const socialMedia = [
