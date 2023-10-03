@@ -1,4 +1,4 @@
-import {icon1,icon2,icon3} from "../assets/icons";
+import {icon1,icon2,icon3,icon16,icon17,icon18} from "../assets/icons";
 
 import {
     ConstructionAccident,
@@ -124,17 +124,17 @@ export const FundData = [
 export const  Benefits = [
 
     {
-        imgURL:"",
+        imgURL:icon16,
         label:"Get cash now.",
         subtext:"With our e-Funding, we can get you cash within minutes of your request."
     },
     {
-        imgURL:"",
+        imgURL:icon17,
         label:"Support for all.",
         subtext:"A dedicated account specialist is at your service. In English or Spanish."
     },
     {
-        imgURL:"",
+        imgURL:icon18,
         label:"Zero risk guarantee.",
         subtext:"We will advance you the money today with no obligation to make any payments unless you win or settle your lawsuit."
     }
