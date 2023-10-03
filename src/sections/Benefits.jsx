@@ -8,7 +8,7 @@ const Benefits = () => {
         <h2 className="padding-x font-extrabold text-3xl text-black font-poppins ">
           Cash with benefits
         </h2>
-        <p className="padding text-lg text-slate-500">
+        <p className="px-6 mt-5 text-lg text-slate-500">
         More than just cash, we provide a support network to help you through one of the most challenging chapters of your life.
         </p>
       </div>
