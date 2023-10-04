@@ -1,5 +1,4 @@
 import { FooterLinks } from "../constants";
-import { Address } from "../constants";
 
 const Footer = () => {
   return (
