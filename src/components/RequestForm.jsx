@@ -6,8 +6,8 @@ import {Button} from "../components";
 const RequestForm = () => {
   return (
     <div className="padding-x ml-8 mb-8 mr-8 block border bg-white ">
-      <form action="">
-      <h1 className="font-bold mt-20 font-poppins text-5xl text-blue-950">
+      <form action="" className="flex-col">
+      <h1 className="font-bold mt-20 font-poppins text-4xl text-blue-950">
         Request funds today.
         </h1>
         {
