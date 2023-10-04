@@ -19,7 +19,7 @@ const Footer = () => {
           {
             FooterLinks.map((link)=>(
               <li key={link.label} className="mt-2 mb-4">
-                <a href={link.href} className="text-white tracking-wide font-poppins">
+                <a href={link.href} className="text-white tracking-wide font-poppins hover:text-green-500">
                   {link.label}
                 </a>
               </li>
