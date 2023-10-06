@@ -51,7 +51,7 @@ export const CaseData = [
 ];
 
 
-export const HardFacts = [
+export const HardFactsData = [
     {
         label:"75%",
         subtext:"share of legal professionals who believe litigation finance is growing and important part of the business of law"

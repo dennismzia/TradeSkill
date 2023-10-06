@@ -1,7 +1,10 @@
+import { HardFactsData } from "../constants";
 
 const HFCard = () => {
   return (
-    <div>HFCard</div>
+    <div>
+
+    </div>
   )
 }
 
