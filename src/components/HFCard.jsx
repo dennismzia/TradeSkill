@@ -5,7 +5,7 @@ const HFCard = () => {
     <div className="mt-5 w-full border flex flex-1">
       {
         HardFactsData.map((item)=>(
-          <div className="border w-full h-full bg-green-300">
+          <div className="border">
           <h2 className="text-7xl font-semibold text-[#1F2363] mb-5">
             {item.label}
           </h2>
