@@ -2,10 +2,10 @@ import { HardFactsData } from "../constants";
 
 const HFCard = () => {
   return (
-    <div className="mt-5">
+    <div className="mt-5 w-full border flex flex-1">
       {
         HardFactsData.map((item)=>(
-          <div>
+          <div className="border w-full h-full bg-green-300">
           <h2 className="text-7xl font-semibold text-[#1F2363] mb-5">
             {item.label}
           </h2>

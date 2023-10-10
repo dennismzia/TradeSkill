@@ -10,7 +10,9 @@ const HardFacts = () => {
         <h1 className="leading-normal text-black font-black text-4xl mb-9">
           THE HARD FACTS
         </h1>
+        <div className="flex">
         <HFCard/>
+        </div>
       </div>
     </div>
   )
