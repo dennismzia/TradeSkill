@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect} from "react";
 import { ChevronLeft, ChevronRight } from "react-feather"
 import { HardFactsData } from "../constants";
 
@@ -10,17 +10,17 @@ const HFCard = () => {
   const next = () =>
     setCurr((curr) => (curr === slides.length - 1 ? 0 : curr + 1))
 
-    useEffect(() => {
-      if (!autoSlide) return
-      const slideInterval = setInterval(next, autoSlideInterval)
-      return () => clearInterval(slideInterval)
-    }, [])
+    // useEffect(() => {
+    //   if (!autoSlide) return
+    //   const slideInterval = setInterval(next, autoSlideInterval)
+    //   return () => clearInterval(slideInterval)
+    // }, [])
 
   return (
-    <div className="mt-5 w-full border flex flex-1">
-      {
+    <div className="m-auto">
+      {/* {
         HardFactsData.map((item)=>(
-          <div className="border">
+          <div className="w-full">
           <h2 className="text-7xl font-semibold text-[#1F2363] mb-5">
             {item.label}
           </h2>
@@ -29,7 +29,16 @@ const HFCard = () => {
           </p>
           </div>
         ))
-      }
+
+      } */}
+      <div className="shadow-sm px-6 py-6">
+        <h2 className="text-7xl font-semibold text-[#1F2363] mb-5">
+        {HardFactsData[0].label}
+        </h2>
+        <p className="text-black text-lg font-poppins mt-2">
+          {HardFactsData[0].subtext}
+        </p>
+      </div>
     </div>
   )
 }
