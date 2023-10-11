@@ -17,13 +17,16 @@ const HFCard = () => {
     // }, [])
 
   return (
-      <div className="px-6 py-6">
+      <div className="px-6 py-6 transition-transform ease-out duration-500">
+        <div className="">
+
         <h2 className="text-7xl font-semibold text-[#1F2363] mb-5">
         {HardFactsData[curr].label}
         </h2>
         <p className="text-black text-lg font-poppins mt-2 mb-8">
           {HardFactsData[curr].subtext}
         </p>
+        </div>
         <button onClick={prev} className="rounded-none bg-slate-200 hover:bg-white text-gray-600">
               <ChevronLeft size={40} />
             </button>
