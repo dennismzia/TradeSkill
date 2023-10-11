@@ -6,9 +6,9 @@ const HFCard = () => {
   const [curr, setCurr] = useState(0)
 
   const prev = () =>
-    setCurr((curr) => (curr === 0 ? slides.length - 1 : curr - 1))
+    setCurr((curr) => (curr === 0 ? HardFactsData.length - 1 : curr - 1))
   const next = () =>
-    setCurr((curr) => (curr === slides.length - 1 ? 0 : curr + 1))
+    setCurr((curr) => (curr === HardFactsData.length - 1 ? 0 : curr + 1))
 
     // useEffect(() => {
     //   if (!autoSlide) return
@@ -17,29 +17,21 @@ const HFCard = () => {
     // }, [])
 
   return (
-    <div className="m-auto">
-      {/* {
-        HardFactsData.map((item)=>(
-          <div className="w-full">
-          <h2 className="text-7xl font-semibold text-[#1F2363] mb-5">
-            {item.label}
-          </h2>
-          <p className="text-black text-sm font-poppins mt-2">
-            {item.subtext}
-          </p>
-          </div>
-        ))
-
-      } */}
-      <div className="shadow-sm px-6 py-6">
+      <div className="px-6 py-6">
         <h2 className="text-7xl font-semibold text-[#1F2363] mb-5">
-        {HardFactsData[0].label}
+        {HardFactsData[curr].label}
         </h2>
-        <p className="text-black text-lg font-poppins mt-2">
-          {HardFactsData[0].subtext}
+        <p className="text-black text-lg font-poppins mt-2 mb-8">
+          {HardFactsData[curr].subtext}
         </p>
+        <button onClick={prev} className="rounded-none bg-slate-200 hover:bg-white text-gray-600">
+              <ChevronLeft size={40} />
+            </button>
+
+            <button onClick={next} className="rounded-none bg-slate-200 hover:bg-white text-gray-600">
+              <ChevronRight size={40} />
+            </button>
       </div>
-    </div>
   )
 }
 

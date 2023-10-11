@@ -13,13 +13,7 @@ const HardFacts = () => {
         </h1>
         <div className="">
           <HFCard/>
-            <button className="rounded-none bg-slate-200 hover:bg-white text-gray-600">
-              <ChevronLeft size={40} />
-            </button>
-
-            <button className="rounded-none bg-slate-200 hover:bg-white text-gray-600">
-              <ChevronRight size={40} />
-            </button>
+            
         </div>
       </div>
     </div>
