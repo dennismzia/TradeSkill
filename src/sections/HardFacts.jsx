@@ -2,7 +2,6 @@ import {HardFactsimage} from "../assets/images";
 import {HFCard} from "../components";
 import { ChevronLeft, ChevronRight } from "react-feather";
 
-// TODO: make this card into a counter
 const HardFacts = () => {
   return (
     <div className="flex">
